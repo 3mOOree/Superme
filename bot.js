@@ -32,7 +32,7 @@ client.user.setGame(`#js`,",{type: 'WATCHING'});
   console.log('')
 });
 
-//js post code
+
 
 const code = '#';
 
@@ -115,7 +115,7 @@ ${thisMessage}\`\`\`
 );
       })}});
 
-//finsh
+
 
 client.login(process.env.BOT_TOKEN)
 
