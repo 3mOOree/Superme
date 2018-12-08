@@ -1,7 +1,7 @@
 
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = '#'
+
 
 
 
@@ -22,6 +22,8 @@ client.on('ready', () => {
     console.log('╚[════════════════════════════════════]╝')
           client.user.setActivity("#help",{type: 'STREAMING'});     //Heeeeeemo Heeeeeeeeeemo   
 });
+
+const prefix = '&'
 
 client.on('disconnect', () => console.log('I just disconnected, making sure you know, I will reconnect now...'));
 
