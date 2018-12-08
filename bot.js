@@ -275,7 +275,14 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
    }
    });
  
- 
+ client.on('ready', () => {
+
+var x = client.channels.get("520226807585308680");
+
+if (x) x.join();
+
+});
+
  
  
 client.login(process.env.BOT_TOKEN);
