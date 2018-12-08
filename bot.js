@@ -3,7 +3,7 @@ const client = new Discord.Client();
  
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-   client.user.setActivite"&help",{type: 'STREAMING'})
+   client.user.setActivity"&help",{type: 'STREAMING'})
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
